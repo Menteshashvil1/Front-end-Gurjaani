@@ -1,0 +1,100 @@
+nav{
+    display: flex;
+    gap: 350px;
+}
+nav .navdiv2 ul{
+    display: flex;
+    gap: 70px;
+}
+header{
+    border-bottom: solid black 2px;
+}
+.first-img{
+    margin-top: 22px;
+    margin-left: 70px;
+    padding-bottom: 30px;
+}
+.second-img{
+    margin-top:17px;
+}
+.navdiv2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.navdiv2 ul{
+    list-style: none;
+}
+.input{ 
+    margin-left:70%;
+    width: 369px;
+    height: 47px;
+}
+.search-icon{
+   position: absolute;
+   right: 100px;
+   top: 145px;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 100px;
+}
+.div1{
+    display: flex;
+    margin-top:3%
+}
+.mini-div{
+    margin-left: 340px;
+}
+.section1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.section1 ul{
+    list-style:none;
+    display: flex;
+    gap: 100px;
+}
+.section1{
+    margin-top: 3%;
+    margin-left: 30%;
+        
+}
+main .div2{
+    display: flex;
+    gap:60px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.mini-div2{
+    background: #E5EBE5;
+    border-radius: 0px 14px 14px 0px;
+}
+.link-div a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: black;
+}
+.link-div{
+    width: 174px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    position: absolute;
+    right: 120px;
+}
