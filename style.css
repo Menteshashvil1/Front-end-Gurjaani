@@ -1,219 +1,134 @@
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    list-style: none;
-}
-header{
-    width: 90%;
-    height: 90px;
-    margin: 0 5%;
-}
-header nav ul li a{
-    text-decoration: none;   
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20.1875px;
-    line-height: 30px;
-    color: #3D3D3D;
-}
-
-
-.search-section{
-    display: flex;
-    align-items: center;
-    background-color: blue;
-    width: 100%;
-    height: 70px;
-    background: #0052CC;
-    border-radius: 0px;
-}
-.search{
-    width: 436.27px;
-    height: 44.86px;
-    background: #FFFFFF;
-    border-radius: 6.72917px;
-    margin-left: 588px;
-    border: none;    
-}
-.search-section h3{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15.7014px;
-    line-height: 24px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-}
-.search-section img{
-    margin-left: 60px;
-}
-.search-section h3{
-    margin-left: 30px;
-}
-.img2{
-    position: absolute;
-    right: 670px;
-}
-.link-divs{
-    display: flex;
-    gap: 30px;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    padding: 10px;
-    gap: 30px;
-    height: 340px;
-    width: 90%;
-    margin: 0 5%;
-    
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    width: 260px;
-  }
-  .card{
-    width: 260px;
-    height: 340px;
-  }
-  .heading{
-     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    text-transform: capitalize;
-    color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    padding: 4.5% 0;
-  }
-  .inside-div{
-    display: flex;
-    justify-content: space-between ;
-    width: 90%;
-    margin: 0 5%;
-    border-bottom: solid #3F69FF;
-  }
-  .inside-div h5{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-  }
-  .inside-div h6{
-    font-family: 'Poppins';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-transform: capitalize;
-    color: #373737;
-  }
-  .inside-div2{
-    display: flex;
-    justify-content: space-around;
-  }
-  .inside-div2 h5{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    text-transform: capitalize;
-    color: #6A6A6A;
-  }
-  .inside-div2 h4{     
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    text-transform: capitalize;
-}
-footer{
-  
-  background-color: #0052CC;
-  margin-top: 400px;
-  width: 100%;
-  height: 249px;
-  
-}
-.footer-div1 img{
-  margin-top: 30px;
-  margin-left: 5%;
-}
-.footer-div2{
-  display: flex;
-  gap: 20px;
-  margin-top: 120px;
-}
-.big-div{
-  margin-left: 5%;
-}
-.footer-div3{
-  display: flex;
-  justify-content: space-between;
-}
-.footer-div4 input{
-  width: 254px;
-  height: 40px;
-  border-radius: 6px;
-  border: none;
-}
-.footer-div4 h5{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-  text-transform: capitalize;
-  color: #FFFFFF;
-}
-.footer-great-div{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: 0 5%;
-}
-.footer-div3 ul{
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-.footer-div3 ul li{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFFFFF;
-}
-.footer-div4 img{
+.sus{
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation-name: box;
+  animation-duration: 20s;
+  animation-direction: normal;
   position: absolute;
-  right: 60px;
-  top: 15px;
+  animation-fill-mode: forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer-div4{
+@keyframes box {
+  0%{
+    background-color: blue;top: 0px;left: 0px;
+  }
+  10%{
+    background-color: green;top: 200px;left: 0px;
+  }
+  15%{
+    background-color:palevioletred;top: 200px; left: 200px;
+  }
+  20%{
+    background-color: aquamarine;left: 200px;top: 400px;
+  }
+  30%{
+    background-color: green;left:700px; top: 400px;
+  }
+  40%{
+    background-color: blueviolet;left: 700px;top: 200px;
+  }
+  50%{
+    background-color: blue;top: 200px; left: 1300px;
+  }
+}
+body{
+  background-color: red;
+  padding: 0;
+  margin: 0;
+}
+.sus a{
+  
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+.background1{
+  background: black;
+  width: 100px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+.background2{
   position: relative;
+  background-color: black;
+  left: 100px;
+  bottom: 100px;
+  width: 200px;
+  height: 100px;
 }
-.img-div, .img-div1, .img-div2, .img-div3 {
-  width: 272px;
-  height: 352px;
+.background3{
+  position: relative;
+  bottom: 100px;
+  left: 200px;
+  background: black;
+  width: 100px;
+  height: 200px;
+
+}
+.background4{
+  position: relative;
+  bottom: 200px;
+  left: 300px;
+  background:black;
+  width: 500px;
+  height: 100px;
+}
+.background5{
+  position: relative;
+  bottom: 500px;
+  left: 700px;
+  background:black;
+  width: 100px;
+  height: 200px;
+}
+.background6{
+  position: relative;
+  bottom: 700px;
+  left: 800px;
+  background:black;
+  width: 600px;
+  height: 100px;
+}
+.clickme{
+  position: absolute;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  bottom: 800px;
+  left: 1400px;
+
+}
+.clickme a{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+.finish{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 1000px;
+  bottom: 700px;
+  background-color: black;
+  width: 790px;
+  height: 100px;
+  rotate: 90deg;
+}
+.finish h1{
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 70px
 }
