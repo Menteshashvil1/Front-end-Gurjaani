@@ -3,13 +3,14 @@
   height: 100px;
   background: red;
   animation-name: box;
-  animation-duration: 20s;
+  animation-duration: 15s;
   animation-direction: normal;
   position: absolute;
   animation-fill-mode: forwards;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-iteration-count: infinite;
 }
 @keyframes box {
   0%{
